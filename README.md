@@ -47,8 +47,14 @@ Right-click and select Run As → TestNG Test
 
 Reports
 ---------------
-Execution details can be seen in the console.
-A basic Cucumber HTML report is generated in the following location: target/cucumber-report.html
+Execution details can be viewed in the console.
+
+An Extent Report is generated along with screenshots for failed test cases.
+
+Failed test cases are retried once (second attempt).
+
+A basic Cucumber HTML report is generated at the following location:
+target/cucumber-report.html
 
 Author
 Bharath S
