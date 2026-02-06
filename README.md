@@ -51,7 +51,7 @@ Execution details can be viewed in the console.
 
 An Extent Report is generated along with screenshots for failed test cases.
 
-Failed test cases are retried once (second attempt).
+Failed test cases can be retriggered from the FailedTestRunner.
 
 A basic Cucumber HTML report is generated at the following location:
 target/cucumber-report.html
