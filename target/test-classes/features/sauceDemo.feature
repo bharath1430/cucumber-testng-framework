@@ -1,5 +1,6 @@
 Feature: Web Application End-to-End Validation
 
+  @regression
   Scenario: Verify user can login and navigate through application
     Given the user launches the application
     When the user enters valid username
